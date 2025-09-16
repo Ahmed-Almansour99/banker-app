@@ -25,9 +25,12 @@ With Banker, you can easily track your monthly expenses, set a daily spending li
   Navigate through past weeks and months to review old reports.
 
 - 📷 **Screenshots**  
-  - `1.png`: Splash Screen  
-  - `2.png`: Home Screen  
-  - `3.png`: Monthly Expenses  
+![App Screenshot](1.png) 
+*Splash Screen*
+![App Screenshot](2.png)
+*Home Screen*
+![App Screenshot](3.png)
+*Monthly Expenses*
 
 ---
 
