@@ -24,13 +24,36 @@ With Banker, you can easily track your monthly expenses, set a daily spending li
 - 📁 **Expense History**  
   Navigate through past weeks and months to review old reports.
 
-- 📷 **Screenshots**  
-![App Screenshot](1.png) 
-*Splash Screen*
-![App Screenshot](2.png)
-*Home Screen*
-![App Screenshot](3.png)
-*Monthly Expenses*
+- 🧩 **Custom Parsing Rules**  
+  Define a rule per bank (sender, keywords, amount/store/date positions) so any SMS format can be parsed.
+
+- 🗓️ **Weekly Budget**  
+  Optional weekly budget on top of the monthly and daily limits, with a week-by-week breakdown.
+
+- 🐷 **Monthly Savings**  
+  Set aside an amount each month, track the savings balance and withdraw when needed.
+
+- 🔁 **Transfers & Balance Correction**  
+  Incoming and outgoing transfers are tracked separately, and the balance can be reconciled with the bank.
+
+- 💾 **Backup & Restore**  
+  Export all data to a JSON file and restore it on a new phone.
+
+---
+
+## 📷 Screenshots
+
+| Home | Home (more) | Spending by Category |
+|:---:|:---:|:---:|
+| <img src="screenshots/01-home-dashboard.png" width="230"> | <img src="screenshots/02-home-dashboard-bottom.png" width="230"> | <img src="screenshots/03-monthly-categories.png" width="230"> |
+| **Transactions** | **Weekly Budget** | **Savings** |
+| <img src="screenshots/04-all-transactions.png" width="230"> | <img src="screenshots/05-weekly-budget-breakdown.png" width="230"> | <img src="screenshots/06-savings.png" width="230"> |
+| **Outgoing Transfers** | **SMS Parsing Rule** | **Backup & Settings** |
+| <img src="screenshots/07-outgoing-transfers.png" width="230"> | <img src="screenshots/08-add-sms-parser.png" width="230"> | <img src="screenshots/09-expenses-settings-backup.png" width="230"> |
+| **First-run Setup** | | |
+| <img src="screenshots/10-first-run-setup.png" width="230"> | | |
+
+> Screenshots use sample data.
 
 ---
 
@@ -38,6 +61,7 @@ With Banker, you can easily track your monthly expenses, set a daily spending li
 
 - **Framework:** [Flutter](https://flutter.dev/)  
 - **Language:** Dart  
+- **State Management:** Bloc  
 - **Database:** Local SQLite (for storing expenses and settings)  
 - **Notifications:** Local notifications for budget alerts  
 
